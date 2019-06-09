@@ -1,0 +1,56 @@
+correção dos exercicios do dia 31/01
+
+1)Mostrar todos os dados da tabela cep
+
+select * from cep;
+
+2)Mostrar nome e telefone de todos os clientes
+
+select nome,telefone from cliente;
+
+3) Mostrar todas as especialidades cujo valor da hora seja maior que 100 reais.
+
+select especialidade from profissional where valor_hora >100;
+	 
+
+4) Mostrar o total faturado no dia 10/01/2019.
+
+select sum(preco)from servico 
+     where data_saida='2019-01-10';
+
+5) Mostrar a média de valores dos serviços executados na oficina.
+
+select avg(preco)from servico;
+
+6) Mostrar a peça mais cara vendida na oficina
+
+select max(preco)from peca;
+
+7) Mostrar a peça mais barata vendida na oficina
+
+select min(preco)from peca;
+
+8)Mostrar nome, telefone e placa do veículo dos clientes.
+
+select nome,telefone,placa 
+from cliente,veiculo
+where cliente.codcliente = veiculo.codcliente;
+   
+9)Mostrar o nome de todas as peças utilizadas no serviço de código 3.
+
+select nome from peca,servico_peca
+where peca.codpeca = servico_peca.codpeca
+and codservico = 3;
+
+10) consultar nome e endereço de todos os clientes
+
+select nome,rua,numero,complemento,bairro,cidade,uf, cliente.cep
+from  cliente,cep 
+where cep.cep = cliente.cep;
+
+11)consultar nome e endereço de todos os clientes que moram em campo grande.
+
+select nome,rua,numero,complemento,bairro,cidade,uf, cliente.cep
+from  cliente,cep 
+where cep.cep = cliente.cep
+and bairro = 'campo grande';

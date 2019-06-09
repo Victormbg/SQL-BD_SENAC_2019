@@ -1,0 +1,23 @@
+Exercicios – Observação insira informações nas tabelas para que suas consultas retornem resultados. (pelo menos 2 registros devem ser mostrados)
+
+1) Buscar o nome de todos os clientes que o nome comece  com a letra M.
+
+2) Buscar o código de todos os serviços executados entre os dias 01 e 10 de janeiro.
+
+3) Buscar os serviços 100 e 105.
+
+4) Buscar o nome das especialidades de mão de obra cujo valor da hora esteja entre 50,00 e 150,00
+
+5) Mostrar código do serviço e defeito de todos os atendimentos do veiculo placa luw5554.
+
+RESPOSTAS:
+
+1) select * from cliente where nome like 'm%';
+
+2) select * from servico where dataEntrada between 1 and 10;
+
+3) select * from servico where codServico in(100,105);
+
+4) select * from especialistas where custoHomemHora between 50 and 150;
+
+5) select * from servico where codServico like 'luw5554%';

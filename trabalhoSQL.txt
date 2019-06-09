@@ -1,0 +1,44 @@
+Trabalho – Banco Oficina Mecânica
+
+1) consultar nome e endereço de todos os clientes 
+
+
+2) consultar nome e endereço de todos os clientes que moram em jacarepagua 
+
+3) consultar nome dos clientes,telefone,placa do veiculo, modelo e marca. 
+
+4) consultar nome,telefone e placa do veiculo do
+
+cliente do serviço código 100.
+
+5) Nome de todas as peças usadas na ordem
+
+de serviço número 100
+
+6) consultar quais foram os serviços executados(mão obra)
+
+e as peças utilizadas no veículo placa luw5554
+
+no dia 05/02/2019.
+
+7) Mostrar a soma atualizada das peças do estoque.
+
+
+8) Mostrar a média de preço das peças do estoque
+
+
+9) Mostrar o maior valor de mão de obra da oficina por especialidade.''
+
+Consultas para o dia 29/01
+
+10) Mostrar o nome de todas as peças com quantidade em estoque menor que 10.
+
+11) Mostrar o nome e telefone de todos os clientes que possuem carro do ano 2014.
+
+12) Mostrar o nome de todos os profissionais que trabalharam no serviço código 234.
+
+13) Mostrar o nome e telefone de todos os clientes que entraram com o carro para serviço no dia 15/01/2019.
+
+14) Mostrar o nome e telefone de todos os proprietários de carros marca Nissan.
+ 
+15) Placa de todos os veículos que realizaram serviço da especialidade "lanternagem".
